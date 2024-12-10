@@ -74,18 +74,14 @@ speed_test() {
 }
 
 speed() {
-    speed_test '' 'Speedtest.net'
-    speed_test '21541' 'Los Angeles, US'
-    speed_test '43860' 'Dallas, US'
-    speed_test '40879' 'Montreal, CA'
-    speed_test '61933' 'Paris, FR'
-    speed_test '28922' 'Amsterdam, NL'
-    speed_test '25858' 'Beijing, CN'
-    speed_test '24447' 'Shanghai, CN'
-    speed_test '60572' 'Guangzhou, CN'
-    speed_test '32155' 'Hong Kong, CN'
+    speed_test '2432' 'Jakarta, ID'
     speed_test '13623' 'Singapore, SG'
+    speed_test '5145' 'Kuala Lumpur, MY'
     speed_test '48463' 'Tokyo, JP'
+    speed_test '32155' 'Hong Kong, CN'
+    speed_test '12225' 'Telkomsel, ID'
+    speed_test '29087' 'XL, ID'
+    speed_test '25881' 'Indosat, ID'
 }
 
 io_test() {
